@@ -5,7 +5,7 @@ module.exports = {
     "params": {
       "path": "app",
       "venv": "env",
-      "message": "python app_locally.py",
+      "message": "python app.py",
       "on": [{ "event": "/http:\/\/[0-9.:]+/", "done": true }]
     }
   }, {
